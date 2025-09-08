@@ -28,3 +28,23 @@ Deliverables
 - How to deploy your infrastructure.
 - Security best practices that you implemented.
 - Any assumptions or design choices you made.
+
+Code structure
+```
+project-root/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── provider.tf
+├── backend.tf
+├── modules/
+│   ├── vpc/
+│   ├── ec2/
+│   ├── iam/
+│   ├── security-group/
+│   ├── cloudtrail/
+│   ├── cloudwatch/
+│   ├── config/
+│   └── secrets-manager/
+└── README.md
+```
