@@ -21,3 +21,9 @@ variable "environment" {
   type        = string
   default     = "dev"
 }
+
+# variable "ami_id" {
+#   description = "AMI ID for EC2 instance"
+#   type        = string
+#   default     = "ami-0e38b48473ea57778" 
+# }
